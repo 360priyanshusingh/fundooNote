@@ -43,4 +43,20 @@ export const loginUser = async(req,res)=>{
 
 }
 
-
+export const forgetFassword = async(req,res,next)=>{
+  try {
+    const data = await UserService.forgetFassword(req.body);
+    res.status(data.code).json({
+      code:data.code,
+      data:data.data,
+      message:data.message
+    })
+    
+  } catch (error) {
+    res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
+      code:HttpStatus.INTERNAL_SERVER_ERROR,
+      data:[],
+      message:error
+    })
+  }
+}

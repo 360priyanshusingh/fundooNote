@@ -74,6 +74,30 @@ export const loginUser = async (body) => {
 
 };
 
+export const forgetFassword= async(body)=>{
+  const data = await User.findOne({where:{email:body.email}})
+
+  if(!data){
+    return{
+      code:HttpStatus.BAD_REQUEST,
+      data:null,
+      message:"User not registered !"
+    }
+  }
+  else{
+
+    for(let i=0;i<5;i++){
+      otp+=Math.floor(Math.random()*10)
+    }
+    
+    return{
+      code:HttpStatus.ACCEPTED,
+      data:otp,
+      message:"Otp Generated !"
+    }
+    
+  }
+}
 
 
 

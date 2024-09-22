@@ -11,6 +11,8 @@ router.post('',newUserValidator, userController.newUser);
 
 router.post('/login',userController.loginUser);
 
+router.post('/forgetPassword',userController.forgetFassword);
+
 
 
 
