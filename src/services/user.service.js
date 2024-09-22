@@ -99,6 +99,40 @@ export const forgetFassword= async(body)=>{
   }
 }
 
+export const resetPassword= async(email,body)=>{
+  const data=await User.findOne({where:{email:email}});
+ //  console.log(data);
+  if(!data){
+   return{
+     code:HttpStatus.BAD_REQUEST,
+     data:null,
+     message:"User not registered !"
+   }
+ }
+  else if(data.otp!=body.otp){
+ 
+
+   return{
+     code:HttpStatus.BAD_REQUEST,
+     data:null,
+     message:"Otp is wrong !"
+   }
+ }
+ else{
+  const hashedPassword= await bcrypt.hash(body.newPassword,4);
+  data.password=hashedPassword;
+  data.save()
+  otp='';
+
+   return{
+     code:HttpStatus.ACCEPTED,
+     data:data,
+     message:"Your Password Succesfully Reset !"
+   }
+   
+ }
+
+}
 
 
 

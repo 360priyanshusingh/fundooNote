@@ -60,3 +60,23 @@ export const forgetFassword = async(req,res,next)=>{
     })
   }
 }
+
+export const resetPassword = async(req,res,next)=>{
+  try {
+    const data = await UserService.resetPassword(req.params.email,req.body);
+    
+    res.status(data.code).json({
+      code:data.code,
+      data:data.data,
+      message:data.message
+    })
+    
+  } catch (error) {
+    console.log(error)
+    res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
+      code:HttpStatus.INTERNAL_SERVER_ERROR,
+      data:[],
+      message:error
+    })
+  }
+}

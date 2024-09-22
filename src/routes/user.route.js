@@ -13,7 +13,7 @@ router.post('/login',userController.loginUser);
 
 router.post('/forgetPassword',userController.forgetFassword);
 
-
+router.post('/resetPassword/:email',userController.resetPassword);
 
 
 
