@@ -1,0 +1,131 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T06:48:07.890Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T06:48:08.015Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T06:51:05.196Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T06:51:05.319Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T06:59:17.651Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T06:59:17.774Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T07:00:20.179Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T07:00:20.286Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T07:01:01.467Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T07:01:01.575Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T07:07:32.067Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T07:07:32.173Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T07:19:34.320Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T07:19:34.526Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T07:31:18.394Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T07:31:33.553Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T07:34:21.467Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T07:36:55.170Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T07:37:13.976Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T07:39:10.713Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T07:39:10.831Z"}
+error: 
+    status - 500 
+    message - Error: regex must be a RegExp
+    at new module.exports (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.pattern (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@hapi\joi\lib\types\string.js:526:17)
+    at newUserValidator (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\validators\/user.validator.js:7:25)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-20T07:40:16.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T07:41:29.049Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T07:41:29.143Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T07:43:09.631Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T07:43:09.754Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T07:43:20.738Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T07:43:20.868Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T08:36:37.298Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T08:36:37.436Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T08:41:41.608Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T08:41:41.753Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T08:52:41.366Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T08:52:41.478Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T08:54:53.606Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T08:54:53.739Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T08:57:15.107Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T08:57:15.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T08:59:27.655Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T08:59:27.788Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T09:23:03.715Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T09:23:03.834Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T09:24:11.855Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T09:24:11.981Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T09:24:30.532Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T09:24:30.649Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T09:33:35.043Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T09:33:35.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T09:40:31.317Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T09:40:32.547Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T09:40:32.671Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T09:45:05.200Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T09:45:05.307Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T09:45:34.831Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T09:45:34.972Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" with value "ritik5@gmail" fails to match the required pattern: /^[a-zA-Z0-9._%+-]+@email\.com$/ 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-20T09:45:40.470Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T09:46:08.469Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T09:46:08.595Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-20T09:46:13.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T09:47:13.400Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T09:47:13.643Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T09:49:43.686Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T09:49:43.791Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T10:18:01.981Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T10:18:02.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T11:39:16.185Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T11:39:16.308Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T11:39:30.574Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T11:39:30.714Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T11:39:36.727Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T11:39:36.838Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-20T11:42:16.990Z"}
+info: Connected to the database. {"timestamp":"2024-09-20T11:42:17.101Z"}

@@ -1,0 +1,774 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T06:06:58.256Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T06:06:59.153Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T06:18:31.582Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T06:18:31.680Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T06:18:42.993Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T06:18:43.104Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/1 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-09-18T06:24:39.173Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T06:25:09.127Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T06:25:09.261Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T06:25:13.592Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T06:25:13.818Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T06:25:17.971Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T06:25:18.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T06:41:26.104Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T06:41:26.863Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T06:50:15.559Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T06:50:15.837Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T06:55:33.024Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T06:55:33.172Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T06:55:40.474Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T06:55:41.192Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T06:55:47.956Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T06:55:48.383Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T06:56:05.439Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T06:56:05.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T06:56:09.531Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T06:56:12.062Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T06:56:13.267Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T06:56:16.150Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T06:56:16.265Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T06:56:22.455Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T06:56:23.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T06:56:26.536Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T06:56:26.636Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T07:26:44.244Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T07:26:44.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T07:26:46.196Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T07:26:46.307Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T07:29:28.412Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T07:29:28.533Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T07:29:32.507Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T07:29:32.611Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T07:29:36.093Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T07:29:36.191Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T07:29:37.739Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T07:29:37.864Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T07:29:39.644Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T07:29:39.754Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T07:29:43.979Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T07:29:44.102Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T07:29:45.942Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T07:29:46.082Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T07:31:52.438Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T07:31:52.705Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T07:31:55.811Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T07:31:55.917Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T07:33:25.908Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T07:33:26.013Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T07:38:25.833Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T07:38:25.952Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T07:48:08.014Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T07:48:08.120Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T08:02:24.894Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T08:02:25.044Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T08:02:47.340Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T08:02:47.456Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T08:05:46.840Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T08:05:46.943Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T08:56:24.556Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T08:56:24.668Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T08:59:00.300Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T08:59:00.432Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:00:15.147Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:00:15.278Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:02:44.655Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:02:44.786Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:03:30.488Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:03:30.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:04:17.691Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:04:17.826Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:07:11.333Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:07:11.426Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:07:31.634Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:07:31.731Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:07:45.320Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:07:45.433Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:11:12.769Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:11:12.874Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:18:55.472Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:18:55.590Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:20:00.293Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:20:00.412Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:20:06.182Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:20:06.342Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:22:00.139Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:22:00.315Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:27:17.584Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:27:17.794Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:27:55.250Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:27:55.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:44:49.999Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:44:50.252Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:44:58.161Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:44:58.536Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:48:55.440Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:48:55.787Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:52:05.130Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:53:04.072Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T09:59:43.150Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T09:59:43.268Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T10:04:21.156Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T10:04:21.249Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T10:04:57.787Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T10:04:57.904Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T10:05:31.521Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T10:06:09.432Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T10:08:11.354Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T10:08:11.454Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T10:08:26.145Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T10:08:26.243Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T10:09:00.374Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T10:11:45.672Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T10:11:45.799Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T10:12:00.148Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T10:12:33.086Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T10:14:44.977Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T10:15:48.257Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T10:19:13.313Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T10:19:13.421Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T10:19:26.883Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T10:19:27.019Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T10:19:31.692Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T10:19:55.165Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T10:20:41.309Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T10:20:41.430Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T10:20:57.343Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T10:23:28.499Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T10:23:28.604Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T10:26:23.764Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T10:26:23.863Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T10:26:44.664Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T10:26:53.471Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T10:26:53.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T10:27:21.251Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T10:27:21.373Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:06:19.379Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:06:19.471Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:07:21.541Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:07:22.930Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:07:23.027Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:09:32.193Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:33:50.465Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:35:52.011Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:35:54.272Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:35:54.391Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:36:01.239Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:36:01.337Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:36:44.577Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:36:44.701Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\sequelize\src\model.js:1955:12) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-09-18T11:39:59.898Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\services\/user.service.js:12:36)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.loginUser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\services\/user.service.js:11:23)
+    at _callee4$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\controllers\/user.controller.js:66:35)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at loginUser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\controllers\/user.controller.js:63:23)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\raw-body\index.js:238:16) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T11:40:06.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:40:55.611Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:40:55.725Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\services\/user.service.js:12:36)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.loginUser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\services\/user.service.js:11:23)
+    at _callee4$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\controllers\/user.controller.js:66:35)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at loginUser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\controllers\/user.controller.js:63:23)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\raw-body\index.js:238:16) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T11:41:01.755Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:44:34.663Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:44:34.777Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:45:57.471Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:45:57.572Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:46:09.948Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:46:10.160Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:46:13.036Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:46:13.121Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\services\/user.service.js:12:36)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.loginUser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\services\/user.service.js:11:23)
+    at _callee4$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\controllers\/user.controller.js:66:35)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at loginUser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\controllers\/user.controller.js:63:23)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\raw-body\index.js:238:16) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T11:46:24.195Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:49:04.579Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:49:04.704Z"}
+error: 
+    status - 500 
+    message - Error: The argument passed to findOne must be an options object, use findByPk if you wish to pass a single primary key value
+    at Function.findOne (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\sequelize\src\model.js:1972:13)
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\services\/user.service.js:12:28)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.loginUser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\services\/user.service.js:11:23)
+    at _callee4$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\controllers\/user.controller.js:66:35)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at loginUser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\controllers\/user.controller.js:63:23)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T11:49:09.681Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:50:10.522Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:50:10.729Z"}
+error: 
+    status - 500 
+    message - TypeError: User.find is not a function
+    at _callee2$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\services\/user.service.js:12:28)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.loginUser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\services\/user.service.js:11:23)
+    at _callee4$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\controllers\/user.controller.js:66:35)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at loginUser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\controllers\/user.controller.js:63:23)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\raw-body\index.js:238:16) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T11:50:16.220Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:52:17.573Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:52:17.687Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\response.js:278:15)
+    at _callee4$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\controllers\/user.controller.js:82:37)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T11:52:29.722Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:54:08.333Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:54:08.433Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:55:47.367Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:55:47.592Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: {
+  ACCEPTED: 202,
+  BAD_GATEWAY: 502,
+  BAD_REQUEST: 400,
+  CONFLICT: 409,
+  CONTINUE: 100,
+  CREATED: 201,
+  EXPECTATION_FAILED: 417,
+  FORBIDDEN: 403,
+  GATEWAY_TIMEOUT: 504,
+  GONE: 410,
+  HTTP_VERSION_NOT_SUPPORTED: 505,
+  IM_A_TEAPOT: 418,
+  INSUFFICIENT_SPACE_ON_RESOURCE: 419,
+  INSUFFICIENT_STORAGE: 507,
+  INTERNAL_SERVER_ERROR: 500,
+  LENGTH_REQUIRED: 411,
+  LOCKED: 423,
+  METHOD_FAILURE: 420,
+  METHOD_NOT_ALLOWED: 405,
+  MOVED_PERMANENTLY: 301,
+  MOVED_TEMPORARILY: 302,
+  MULTI_STATUS: 207,
+  MULTIPLE_CHOICES: 300,
+  NETWORK_AUTHENTICATION_REQUIRED: 511,
+  NO_CONTENT: 204,
+  NON_AUTHORITATIVE_INFORMATION: 203,
+  NOT_ACCEPTABLE: 406,
+  NOT_FOUND: 404,
+  NOT_IMPLEMENTED: 501,
+  NOT_MODIFIED: 304,
+  OK: 200,
+  PARTIAL_CONTENT: 206,
+  PAYMENT_REQUIRED: 402,
+  PERMANENT_REDIRECT: 308,
+  PRECONDITION_FAILED: 412,
+  PRECONDITION_REQUIRED: 428,
+  PROCESSING: 102,
+  PROXY_AUTHENTICATION_REQUIRED: 407,
+  REQUEST_HEADER_FIELDS_TOO_LARGE: 431,
+  REQUEST_TIMEOUT: 408,
+  REQUEST_TOO_LONG: 413,
+  REQUEST_URI_TOO_LONG: 414,
+  REQUESTED_RANGE_NOT_SATISFIABLE: 416,
+  RESET_CONTENT: 205,
+  SEE_OTHER: 303,
+  SERVICE_UNAVAILABLE: 503,
+  SWITCHING_PROTOCOLS: 101,
+  TEMPORARY_REDIRECT: 307,
+  TOO_MANY_REQUESTS: 429,
+  UNAUTHORIZED: 401,
+  UNPROCESSABLE_ENTITY: 422,
+  UNSUPPORTED_MEDIA_TYPE: 415,
+  USE_PROXY: 305,
+  getStatusCode: [Function: getStatusCode],
+  getStatusText: [Function: getReasonPhrase]
+}
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:919:9)
+    at ServerResponse.end (node:_http_outgoing:1030:5)
+    at ServerResponse.send (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\response.js:278:15)
+    at _callee4$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\controllers\/user.controller.js:76:30)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T11:55:55.887Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:56:51.699Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:56:51.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:56:54.480Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:56:54.665Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T11:57:40.671Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T11:57:40.772Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\express\lib\response.js:278:15)
+    at _callee4$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\controllers\/user.controller.js:82:37)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T11:57:45.659Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:00:19.285Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:00:19.397Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:02:42.606Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:02:42.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:04:12.577Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:04:12.691Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'email')
+    at _callee4$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\controllers\/user.controller.js:67:23)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T12:09:53.610Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:11:23.849Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:11:23.955Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'email')
+    at _callee4$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\controllers\/user.controller.js:67:23)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T12:13:22.132Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:14:21.250Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:14:21.361Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'email')
+    at _callee4$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\controllers\/user.controller.js:67:23)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T12:15:17.507Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'email')
+    at _callee4$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\src\controllers\/user.controller.js:67:23)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\second-express-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T12:16:58.600Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:17:05.186Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:17:05.400Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:17:32.475Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:17:32.597Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:18:09.259Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:18:09.403Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:20:04.444Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:20:04.542Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:21:47.519Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:21:47.627Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:22:51.660Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:22:51.753Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:29:07.846Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:29:07.948Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:29:58.948Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:29:59.048Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:31:07.892Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:31:08.057Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:33:50.181Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:33:50.438Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:34:40.253Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:34:40.405Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:36:44.228Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:36:44.498Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T12:58:23.934Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T12:58:24.296Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T13:00:05.543Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T13:00:05.813Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T13:01:09.820Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T13:01:10.259Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-18T13:01:17.557Z"}
+info: Connected to the database. {"timestamp":"2024-09-18T13:01:17.748Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed to be empty 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-18T13:01:35.759Z"}
