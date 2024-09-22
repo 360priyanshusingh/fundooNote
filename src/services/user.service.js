@@ -37,7 +37,42 @@ export const newUser = async (body) => {
 
 };
 
+export const loginUser = async (body) => {
 
+  const data = await User.findOne({ where: { email: body.email } });
+    if(data===null){
+      return {
+        code: HttpStatus.BAD_REQUEST, 
+        data: null,
+        message: 'User is not registered !',
+      };
+
+    }
+
+   const passwordMatch = await bcrypt.compare(body.password, data.password); 
+
+   if(!passwordMatch){
+     return{
+        code:HttpStatus.BAD_REQUEST,
+        data:null,
+        message:'User Password Is Wrong !',
+     };
+  }
+
+  const token = jwt.sign({
+    userId: data.id,
+    email:data.email,
+  }, process.env.JWT_SECRET);
+
+
+  return{
+    code:HttpStatus.CREATED,
+    data:token,
+    message:'User successfully Login',
+ };
+  
+
+};
 
 
 

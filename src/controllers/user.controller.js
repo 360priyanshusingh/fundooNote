@@ -22,7 +22,25 @@ export const newUser = async(req,res)=>{
   }
 }
 
+export const loginUser = async(req,res)=>{
+  try {
+    const data= await UserService.loginUser(req.body);
+  res.status(data.code).json({
+    code:data.code,
+    data:data.data,
+    message:data.message,
+
+ });
+  } catch (error) {
+    res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
+      code:HttpStatus.INTERNAL_SERVER_ERROR,
+      data:null,
+      message:error
+    })
+
+  }
 
 
+}
 
 
