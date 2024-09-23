@@ -86,5 +86,25 @@ export const updateNote= async (req,res,next)=>{
       }
 
 }
+export const deleteNote= async (req,res)=>{
+    
+    try {
+        const data= await NoteService.deleteNote(req.params.id);
+        res.status(data.code).json({
+           code:data.code,
+           data:data.data,
+           message:data.message,
+        });
+    
+      } catch (error) {
+        res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
+          code:HttpStatus.INTERNAL_SERVER_ERROR,
+          data:[],
+          message:error
+        })
+    
+      }
+
+}
 
 

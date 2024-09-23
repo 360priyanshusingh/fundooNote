@@ -16,5 +16,7 @@ router.get('/getNoteById/:id',noteController.getNoteById)
 
 router.put('/updateNote/:id',noteController.updateNote)
 
+router.delete('/deleteNote/:id',noteController.deleteNote)
+
 
 module.exports=router;

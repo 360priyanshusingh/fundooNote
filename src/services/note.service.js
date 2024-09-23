@@ -94,3 +94,24 @@ export const updateNote = async(noteId,body)=>{
    
 
 }
+
+export const deleteNote = async(noteId)=>{
+    const data = await Note.destroy({where:{id:noteId}});
+    if(!data){
+        return{
+            code:HttpStatus.INTERNAL_SERVER_ERROR,
+            data:null,
+            message:"Note is not present !"
+        }
+    }
+    else{
+        return{
+            code:HttpStatus.ACCEPTED,
+            data:data,
+            message:"Note deleted SuccessFully !"
+        }
+
+    }
+   
+
+}
