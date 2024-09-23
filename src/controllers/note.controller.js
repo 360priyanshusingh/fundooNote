@@ -23,3 +23,24 @@ export const createNote= async (req,res)=>{
       }
 
 }
+
+export const getAllNotes= async (req,res)=>{
+    
+    try {
+        const data= await NoteService.getAllNotes(req.body);
+        res.status(data.code).json({
+           code:data.code,
+           data:data.data,
+           message:data.message,
+        });
+    
+      } catch (error) {
+        res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
+          code:HttpStatus.INTERNAL_SERVER_ERROR,
+          data:[],
+          message:error
+        })
+    
+      }
+
+}

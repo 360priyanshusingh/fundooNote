@@ -30,3 +30,11 @@ error:
 >>>>>>> createNote
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-23T08:47:24.732Z"}
 info: Connected to the database. {"timestamp":"2024-09-23T08:47:24.883Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T09:00:05.112Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T09:06:05.625Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T09:06:13.188Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T09:06:41.469Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-23T09:06:45.761Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T09:06:45.857Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-23T09:06:54.295Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T09:06:54.424Z"}
