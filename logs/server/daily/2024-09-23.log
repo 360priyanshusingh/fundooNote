@@ -1,0 +1,25 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-23T07:39:34.505Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T07:39:34.648Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-23T07:49:29.474Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T07:49:29.724Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-23T07:56:32.809Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T07:56:32.931Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T07:57:00.110Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T07:57:22.749Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T08:00:21.452Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T08:02:10.383Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T08:02:12.155Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T08:02:17.461Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T08:02:32.713Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T08:02:56.030Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T08:30:48.259Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-23T08:31:38.795Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-23T08:31:40.184Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T08:31:40.278Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is not allowed to be empty 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-23T08:39:03.706Z"}
