@@ -10,3 +10,7 @@ info: ::1 - - [23/Sep/2024:09:09:12 +0000] "POST /api/v1/notes/createNote HTTP/1
 
 info: ::1 - - [23/Sep/2024:09:09:21 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 202 349 "-" "PostmanRuntime/7.42.0"
 
+info: ::1 - - [23/Sep/2024:09:44:49 +0000] "GET /api/v1/notes/getNoteById/1 HTTP/1.1" 202 204 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Sep/2024:09:44:55 +0000] "GET /api/v1/notes/getNoteById/2 HTTP/1.1" 202 207 "-" "PostmanRuntime/7.42.0"
+
