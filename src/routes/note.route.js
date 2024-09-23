@@ -10,5 +10,7 @@ const router= express.Router()
 
 router.post('/createNote',newNoteValidator,noteController.createNote)
 
+router.get('/getAllNotes',noteController.getAllNotes)
+
 
 module.exports=router;

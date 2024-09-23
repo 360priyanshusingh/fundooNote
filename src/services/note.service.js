@@ -28,3 +28,23 @@ export const createNote = async(body)=>{
     }
 
 }
+
+export const getAllNotes = async()=>{
+    const data = await Note.findAll();
+    if(data){
+        return{
+            code:HttpStatus.ACCEPTED,
+            data:data,
+            message:"Get All Notes SuccessFully !"
+        }
+    }
+    else{
+        return{
+            code:HttpStatus.BAD_REQUEST,
+            data:null,
+            message:"Notes is not prasent !"
+        }
+
+    }
+
+}
