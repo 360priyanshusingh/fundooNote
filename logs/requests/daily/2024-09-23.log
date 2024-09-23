@@ -14,3 +14,11 @@ info: ::1 - - [23/Sep/2024:09:44:49 +0000] "GET /api/v1/notes/getNoteById/1 HTTP
 
 info: ::1 - - [23/Sep/2024:09:44:55 +0000] "GET /api/v1/notes/getNoteById/2 HTTP/1.1" 202 207 "-" "PostmanRuntime/7.42.0"
 
+info: ::1 - - [23/Sep/2024:10:50:01 +0000] "DELETE /api/v1/notes/createNote/2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Sep/2024:10:50:18 +0000] "DELETE /api/v1/notes/updateNote/2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Sep/2024:10:50:58 +0000] "PUT /api/v1/notes/updateNote/2 HTTP/1.1" 202 208 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Sep/2024:10:51:08 +0000] "PUT /api/v1/notes/updateNote/3 HTTP/1.1" 500 58 "-" "PostmanRuntime/7.42.0"
+
