@@ -14,7 +14,7 @@ router.get('/getAllNotes',noteController.getAllNotes)
 
 router.get('/getNoteById/:id',noteController.getNoteById)
 
-router.put('/updateNote/:id',noteController.updateNote)
+router.put('/updateNote/:id',newNoteValidator,noteController.updateNote)
 
 router.delete('/deleteNote/:id',noteController.deleteNote)
 
