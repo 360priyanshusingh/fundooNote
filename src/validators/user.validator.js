@@ -29,3 +29,4 @@ export const loginUserValidator = (req, res, next) => {
     next();
   }
 };
+

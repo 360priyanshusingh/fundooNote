@@ -1,0 +1,6 @@
+info: ::1 - - [23/Sep/2024:07:44:49 +0000] "POST /api/v1/users/createNote HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Sep/2024:07:49:47 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 202 201 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Sep/2024:08:39:03 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 500 77 "-" "PostmanRuntime/7.42.0"
+
