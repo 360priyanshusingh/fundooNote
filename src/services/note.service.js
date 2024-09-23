@@ -48,3 +48,49 @@ export const getAllNotes = async()=>{
     }
 
 }
+
+export const getNoteById = async(noteId)=>{
+    const data = await Note.findOne({where:{id:noteId}});
+    if(data){
+        return{
+            code:HttpStatus.ACCEPTED,
+            data:data,
+            message:"Get Notes by Id SuccessFully !"
+        }
+    }
+    else{
+        return{
+            code:HttpStatus.BAD_REQUEST,
+            data:null,
+            message:"Notes is not prasent !"
+        }
+
+    }
+
+}
+
+export const updateNote = async(noteId,body)=>{
+    const data = await Note.findOne({where:{id:noteId}});
+    if(!data){
+        return{
+            code:HttpStatus.INTERNAL_SERVER_ERROR,
+            data:null,
+            message:"Note is not present !"
+        }
+    }
+    else{
+
+        data.title=body.title
+        data.description=body.description
+        data.save()
+
+        return{
+            code:HttpStatus.ACCEPTED,
+            data:data,
+            message:"Note Updated SuccessFully !"
+        }
+
+    }
+   
+
+}
