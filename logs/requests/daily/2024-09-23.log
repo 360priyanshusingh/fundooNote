@@ -4,3 +4,9 @@ info: ::1 - - [23/Sep/2024:07:49:47 +0000] "POST /api/v1/notes/createNote HTTP/1
 
 info: ::1 - - [23/Sep/2024:08:39:03 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 500 77 "-" "PostmanRuntime/7.42.0"
 
+info: ::1 - - [23/Sep/2024:09:08:17 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 202 204 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Sep/2024:09:09:12 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 202 204 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Sep/2024:09:09:21 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 202 349 "-" "PostmanRuntime/7.42.0"
+
