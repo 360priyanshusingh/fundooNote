@@ -12,5 +12,7 @@ router.post('/createNote',newNoteValidator,noteController.createNote)
 
 router.get('/getAllNotes',noteController.getAllNotes)
 
+router.get('/getNoteById/:id',noteController.getNoteById)
+
 
 module.exports=router;

@@ -48,3 +48,22 @@ export const getAllNotes = async()=>{
     }
 
 }
+export const getNoteById = async(userId)=>{
+    const data = await Note.findOne({where:{id:userId}});
+    if(data){
+        return{
+            code:HttpStatus.ACCEPTED,
+            data:data,
+            message:"Get Notes by Id SuccessFully !"
+        }
+    }
+    else{
+        return{
+            code:HttpStatus.BAD_REQUEST,
+            data:null,
+            message:"Notes is not prasent !"
+        }
+
+    }
+
+}
