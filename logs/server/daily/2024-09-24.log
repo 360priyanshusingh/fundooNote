@@ -1,0 +1,375 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:10:11.015Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:10:11.171Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:17:24.280Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:17:24.979Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:17:47.229Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:17:47.607Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/createNote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-09-24T06:17:49.816Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:24:32)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at userAuth (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-24T06:19:22.560Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:24:32)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at userAuth (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-24T06:20:18.733Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:22:50.949Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:22:51.240Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:24:37.653Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:24:37.815Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:25:08.247Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:25:08.435Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:26:03.427Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:26:03.659Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:26:41.541Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:26:41.786Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot set properties of undefined (setting 'user')
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:27:18)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-24T06:26:44.673Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:27:40.236Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:27:40.463Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:30:05.691Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:30:08.020Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:30:08.178Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:32:33.564Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:32:33.867Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot set properties of undefined (setting 'userId')
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:27:20)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-24T06:32:37.846Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:33:23.762Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:33:23.931Z"}
+error: 
+    status - 500 
+    message - ValidationError: "userId" is not allowed 
+    url - /api/v1/notes/createNote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-24T06:33:29.562Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:34:17.629Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:34:17.791Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:36:29.611Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:36:29.834Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:39:21.002Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:39:21.303Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:39:55.142Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:39:55.293Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:41:39.708Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:41:39.967Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:41:50.390Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T06:41:52.487Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:41:52.613Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:43:13.517Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:45:24.578Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T06:47:22.321Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T07:52:32.682Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T07:52:32.805Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T07:52:34.224Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T07:52:34.350Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T07:52:43.872Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T07:52:44.005Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T07:55:01.590Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T07:55:01.750Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T07:55:03.110Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T07:55:03.349Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T07:55:41.020Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T07:55:42.492Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T07:55:42.621Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T07:55:45.860Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T07:55:45.962Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T07:55:53.423Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T07:55:54.724Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T07:55:54.816Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T08:39:44.148Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T08:39:44.276Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T08:40:31.965Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T08:40:33.476Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T08:40:33.566Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T08:40:52.095Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T08:40:52.213Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T08:41:21.114Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T08:41:21.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T08:47:37.410Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T08:47:37.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T08:47:55.580Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T08:47:55.715Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T08:48:27.107Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T08:48:27.224Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T08:52:12.237Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T08:52:12.351Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T08:58:11.327Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T08:58:11.466Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T08:58:48.090Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T08:58:48.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T09:06:08.913Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T09:06:09.028Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/createNote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-09-24T09:14:02.210Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T09:26:12.323Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T09:26:12.444Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T09:27:16.122Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T09:27:16.236Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T09:27:23.824Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T09:27:24.004Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T09:37:33.527Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T09:37:33.647Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T09:55:47.417Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T09:55:47.550Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T09:57:19.010Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T09:57:19.116Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T09:57:58.982Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T09:57:59.126Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T10:04:51.362Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T10:04:51.486Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T14:30:27.526Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T14:30:27.892Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T14:33:06.805Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T14:33:06.960Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T14:33:20.838Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T14:33:22.345Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T14:34:56.102Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T14:34:56.611Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T14:42:29.365Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T14:42:29.949Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T14:42:54.879Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T14:42:55.001Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T14:45:43.138Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T14:45:43.996Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T14:46:35.153Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T14:46:35.634Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T14:47:13.013Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T14:47:13.873Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T14:50:07.056Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T14:50:07.222Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T14:51:35.737Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T14:51:36.510Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T14:54:04.107Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T14:54:04.902Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T14:54:08.477Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T14:54:08.705Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T15:09:33.164Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T15:09:33.459Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T15:13:40.736Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T15:13:40.937Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/getAllNotes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-09-24T15:14:04.772Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T15:23:09.626Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T15:23:09.747Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T15:24:27.748Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T15:24:28.003Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T15:24:50.804Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T15:24:50.920Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T16:31:35.020Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T16:31:35.155Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T16:34:55.300Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T16:34:55.791Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T16:35:03.654Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T16:35:03.829Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T16:38:15.501Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T16:38:15.656Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T16:38:46.766Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T16:38:46.925Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T16:39:20.928Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T16:39:21.171Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T16:40:33.351Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T16:40:33.500Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T16:41:24.162Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T16:41:24.306Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/getNoteById/2 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-09-24T16:41:49.566Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T16:44:09.498Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T16:44:09.661Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T16:48:43.488Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T16:48:43.649Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T16:49:57.595Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T16:49:57.735Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T16:52:47.464Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T16:52:47.631Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T16:52:57.418Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T16:52:57.543Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T16:56:13.629Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T16:56:13.750Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T16:56:47.389Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T16:56:47.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T17:02:07.516Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T17:02:07.765Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is not allowed to be empty 
+    url - /api/v1/notes/updateNote/3 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-09-24T17:02:32.471Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" length must be at least 3 characters long 
+    url - /api/v1/notes/updateNote/3 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-09-24T17:02:45.521Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/notes/updateNote/3 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-09-24T17:02:59.569Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/notes/updateNote/3 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-09-24T17:04:57.365Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T17:05:27.317Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T17:05:27.456Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T17:05:50.263Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T17:05:50.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-24T17:06:18.117Z"}
+info: Connected to the database. {"timestamp":"2024-09-24T17:06:18.366Z"}

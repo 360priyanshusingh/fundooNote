@@ -158,3 +158,7 @@ error:
     method - PUT 
     IP - ::1
    {"timestamp":"2024-09-23T12:15:25.012Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-23T12:18:19.995Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T12:18:20.098Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-23T12:51:45.365Z"}
+info: Connected to the database. {"timestamp":"2024-09-23T12:51:45.515Z"}

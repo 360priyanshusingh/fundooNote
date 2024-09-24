@@ -8,13 +8,32 @@ module.exports=(sequelize,DataTypes)=>{
 
         static associate(models) {
             // define association here
+            // Note.belongsTo(models.User, {
+            //     foreignKey: 'userId',
+            //     as: 'user'  // You can give it an alias, or use 'User' directly
+            // });
           }
     }
 
     note.init(
         {
+            // id: {
+            //     type: DataTypes.INTEGER,
+            //     primaryKey: true,
+            //     autoIncrement: true,
+            //   },
+            //   userId: {
+            //     type: DataTypes.INTEGER,
+            //     allowNull: false,
+            //     references: {
+            //       model: 'Users',
+            //       key: 'id',
+            //     }
+            // },
+            email:DataTypes.STRING,
             title:DataTypes.STRING,
             description:DataTypes.STRING,
+
         },
         {
             sequelize,

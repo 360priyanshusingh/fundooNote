@@ -4,7 +4,7 @@ import { trace } from '@hapi/joi';
 
 
 export const createNote= async (req,res)=>{
-    
+    // console.log(req.body)
     try {
         const data= await NoteService.createNote(req.body);
         res.status(data.code).json({
@@ -48,7 +48,7 @@ export const getAllNotes= async (req,res)=>{
 export const getNoteById= async (req,res)=>{
     
     try {
-        const data= await NoteService.getNoteById(req.params.id);
+        const data= await NoteService.getNoteById(req.params.id,req.body);
         res.status(data.code).json({
            code:data.code,
            data:data.data,

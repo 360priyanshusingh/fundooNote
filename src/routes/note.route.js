@@ -1,6 +1,9 @@
 import * as noteController from '../controllers/note.controller';
+import { userAuth } from '../middlewares/auth.middleware';
 
 import {newNoteValidator} from '../validators/note.validator'
+
+
 
 const express = require('express');
 
@@ -8,13 +11,13 @@ const express = require('express');
 const router= express.Router()
 
 
-router.post('/createNote',newNoteValidator,noteController.createNote)
+router.post('/createNote',newNoteValidator,userAuth,noteController.createNote)
 
-router.get('/getAllNotes',noteController.getAllNotes)
+router.get('/getAllNotes',userAuth,noteController.getAllNotes)
 
-router.get('/getNoteById/:id',noteController.getNoteById)
+router.get('/getNoteById/:id',userAuth,noteController.getNoteById)
 
-router.put('/updateNote/:id',newNoteValidator,noteController.updateNote)
+router.put('/updateNote/:id',newNoteValidator,userAuth,noteController.updateNote)
 
 router.delete('/deleteNote/:id',noteController.deleteNote)
 
