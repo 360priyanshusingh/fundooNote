@@ -25,7 +25,7 @@ router.put('/updateNoteArchive/:id',userAuth,noteController.updateNoteArchive)
 
 router.put('/updateNoteColour/:id',userAuth,noteController.updateNoteColour)
 
-router.delete('/deleteNote/:id',noteController.deleteNote)
+router.delete('/deleteNote/:id',userAuth,noteController.deleteNote)
 
 
 module.exports=router;

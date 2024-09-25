@@ -178,6 +178,7 @@ export const updateNoteArchive = async(noteId,body)=>{
    
 
 }
+
 export const updateNoteColour = async(noteId,body)=>{
     const data = await Note.findOne({where:{id:noteId,email:body.email}});
     if(!data){
@@ -210,21 +211,43 @@ export const updateNoteColour = async(noteId,body)=>{
 
 }
 
-export const deleteNote = async(noteId)=>{
-    const data = await Note.destroy({where:{id:noteId}});
+export const deleteNote = async(noteId,body)=>{
+
+    const data = await Note.findOne({where:{id:noteId,email:body.email}});
     if(!data){
         return{
             code:HttpStatus.INTERNAL_SERVER_ERROR,
             data:null,
             message:"Note is not present !"
         }
-    }
-    else{
+    } 
+
+    else if(!data.isTrash){
+        data.isTrash=!data.isTrash
+        data.save()
         return{
             code:HttpStatus.ACCEPTED,
             data:data,
-            message:"Note deleted SuccessFully !"
+            message:"Note Trash Updated SuccessFully !"
         }
+
+    }
+    else{
+        const newdata = await Note.destroy({ where: { id: noteId } });
+        if (newdata) {
+            return {
+                code: HttpStatus.OK,
+                data: newdata, 
+                message: "Note deleted successfully!"
+            };
+        } else {
+            return {
+                code: HttpStatus.NOT_FOUND,
+                data:null,
+                message: "Note not found or already deleted!"
+            };
+        }
+
 
     }
    

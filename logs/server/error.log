@@ -4182,3 +4182,288 @@ Error: Route.put() requires a callback function but got a [object Undefined]
     at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
     at node:internal/main/run_main_module:28:49 {"date":"Wed Sep 25 2024 12:45:41 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1050348.375},"process":{"argv":["node","C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\src\\index.js"],"cwd":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":16999,"external":3016972,"heapTotal":95186944,"heapUsed":63760464,"rss":133980160},"pid":18804,"uid":null,"version":"v20.11.1"},"stack":"Error: Route.put() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as put] (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.put (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\src\\routes\\/note.route.js:26:8)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\@babel\\node\\src\\_babel-node.ts:220:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-09-25T07:15:41.469Z","trace":[{"column":15,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as put]","line":216,"method":"<computed> [as put]","native":false},{"column":19,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\express\\lib\\router\\index.js","function":"Function.put","line":521,"method":"put","native":false},{"column":8,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\src\\routes\\/note.route.js","function":null,"line":26,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":1,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":1,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\sisod\\OneDrive\\Desktop\\workSpace_ckpd\\fundooNote\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":220,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:25:30)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at userAuth (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\body-parser\lib\types\urlencoded.js:94:7)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/deleteNote/3 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-09-25T09:33:53.980Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:25:30)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at userAuth (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\body-parser\lib\types\urlencoded.js:94:7)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/deleteNote/3 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-09-25T09:34:10.135Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:25:30)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at userAuth (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\body-parser\lib\types\urlencoded.js:94:7)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/deleteNote/3 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-09-25T09:38:44.875Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:25:30)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at userAuth (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\body-parser\lib\types\urlencoded.js:94:7)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/deleteNote/3 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-09-25T09:40:11.321Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:25:30)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at userAuth (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\body-parser\lib\types\urlencoded.js:94:7)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/deleteNote/3 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-09-25T09:43:08.564Z"}

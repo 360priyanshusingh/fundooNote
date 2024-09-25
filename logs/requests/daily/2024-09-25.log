@@ -58,3 +58,63 @@ info: ::1 - - [25/Sep/2024:07:20:53 +0000] "PUT /api/v1/notes/updateNoteColour/1
 
 info: ::1 - - [25/Sep/2024:07:21:05 +0000] "PUT /api/v1/notes/updateNoteColour/1 HTTP/1.1" 202 277 "-" "PostmanRuntime/7.42.0"
 
+info: ::1 - - [25/Sep/2024:09:06:55 +0000] "DELETE /api/v1/notes/deleteNote/1 HTTP/1.1" 500 35 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:07:22 +0000] "DELETE /api/v1/notes/deleteNote/1 HTTP/1.1" 500 35 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:08:09 +0000] "DELETE /api/v1/notes/deleteNote/1 HTTP/1.1" 202 276 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:10:46 +0000] "PUT /api/v1/notes/updateNoteTrash/1 HTTP/1.1" 202 277 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:10:51 +0000] "PUT /api/v1/notes/updateNoteColour/1 HTTP/1.1" 202 277 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:11:04 +0000] "DELETE /api/v1/notes/deleteNote/1 HTTP/1.1" 202 276 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:11:15 +0000] "DELETE /api/v1/notes/deleteNote/1 HTTP/1.1" 500 35 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:12:18 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 400 59 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:15:26 +0000] "GET /api/v1/notes/getNoteById/1 HTTP/1.1" 400 59 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:16:37 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 202 269 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:23:15 +0000] "POST /api/v1/users/login HTTP/1.1" 201 214 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:23:26 +0000] "DELETE /api/v1/notes/deleteNote/1 HTTP/1.1" 500 58 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:24:54 +0000] "POST /api/v1/users/login HTTP/1.1" 201 214 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:25:38 +0000] "DELETE /api/v1/notes/deleteNote/1 HTTP/1.1" 500 58 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:26:01 +0000] "PUT /api/v1/notes/updateNoteTrash/1 HTTP/1.1" 500 58 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:26:09 +0000] "PUT /api/v1/notes/updateNoteTrash/2 HTTP/1.1" 202 274 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:26:11 +0000] "PUT /api/v1/notes/updateNoteTrash/2 HTTP/1.1" 202 275 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:26:17 +0000] "PUT /api/v1/notes/updateNoteArchive/2 HTTP/1.1" 202 276 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:26:25 +0000] "DELETE /api/v1/notes/deleteNote/2 HTTP/1.1" 202 273 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:27:58 +0000] "DELETE /api/v1/notes/deleteNote/2 HTTP/1.1" 500 35 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:33:15 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 202 269 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:33:53 +0000] "DELETE /api/v1/notes/deleteNote/3 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:34:10 +0000] "DELETE /api/v1/notes/deleteNote/3 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:38:44 +0000] "DELETE /api/v1/notes/deleteNote/3 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:40:11 +0000] "DELETE /api/v1/notes/deleteNote/3 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:43:08 +0000] "DELETE /api/v1/notes/deleteNote/3 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:43:14 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 400 59 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:43:23 +0000] "GET /api/v1/notes/getAllNotes HTTP/1.1" 202 272 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:43:44 +0000] "DELETE /api/v1/notes/deleteNote/3 HTTP/1.1" 202 274 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:09:43:49 +0000] "DELETE /api/v1/notes/deleteNote/3 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.42.0"
+

@@ -150,7 +150,7 @@ export const updateNote= async (req,res,next)=>{
 export const deleteNote= async (req,res)=>{
     
     try {
-        const data= await NoteService.deleteNote(req.params.id);
+        const data= await NoteService.deleteNote(req.params.id,req.body);
         res.status(data.code).json({
            code:data.code,
            data:data.data,
