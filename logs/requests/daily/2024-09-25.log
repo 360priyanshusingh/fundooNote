@@ -26,3 +26,23 @@ info: ::1 - - [25/Sep/2024:06:01:38 +0000] "PUT /api/v1/notes/updateNoteTrash/1 
 
 info: ::1 - - [25/Sep/2024:06:01:41 +0000] "PUT /api/v1/notes/updateNoteTrash/1 HTTP/1.1" 202 254 "-" "PostmanRuntime/7.42.0"
 
+info: ::1 - - [25/Sep/2024:06:13:26 +0000] "PUT /api/v1/notes/updateNoteTrash/1 HTTP/1.1" 202 255 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:06:13:35 +0000] "PUT /api/v1/notes/updateNoteTrash/1 HTTP/1.1" 202 254 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:06:14:00 +0000] "PUT /api/v1/notes/updateNoteArchive/1 HTTP/1.1" 202 253 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:06:14:07 +0000] "PUT /api/v1/notes/updateNoteTrash/1 HTTP/1.1" 202 254 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:06:14:13 +0000] "PUT /api/v1/notes/updateNoteTrash/1 HTTP/1.1" 202 253 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:06:14:14 +0000] "PUT /api/v1/notes/updateNoteTrash/1 HTTP/1.1" 202 254 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:06:14:18 +0000] "PUT /api/v1/notes/updateNoteArchive/1 HTTP/1.1" 202 255 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:06:14:20 +0000] "PUT /api/v1/notes/updateNoteArchive/1 HTTP/1.1" 202 254 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:06:14:22 +0000] "PUT /api/v1/notes/updateNoteArchive/1 HTTP/1.1" 202 255 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:06:14:23 +0000] "PUT /api/v1/notes/updateNoteArchive/1 HTTP/1.1" 202 254 "-" "PostmanRuntime/7.42.0"
+

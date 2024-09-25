@@ -21,6 +21,8 @@ router.put('/updateNote/:id',newNoteValidator,userAuth,noteController.updateNote
 
 router.put('/updateNoteTrash/:id',userAuth,noteController.updateNoteTrash)
 
+router.put('/updateNoteArchive/:id',userAuth,noteController.updateNoteArchive)
+
 router.delete('/deleteNote/:id',noteController.deleteNote)
 
 

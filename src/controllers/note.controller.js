@@ -86,6 +86,26 @@ export const updateNoteTrash= async (req,res)=>{
       }
 
 }
+export const updateNoteArchive= async (req,res)=>{
+    
+    try {
+        const data= await NoteService.updateNoteArchive(req.params.id,req.body);
+        res.status(data.code).json({
+           code:data.code,
+           data:data.data,
+           message:data.message,
+        });
+    
+      } catch (error) {
+        res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
+          code:HttpStatus.INTERNAL_SERVER_ERROR,
+          data:[],
+          message:error
+        })
+    
+      }
+
+}
 
 export const updateNote= async (req,res,next)=>{
     
