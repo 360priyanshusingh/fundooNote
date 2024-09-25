@@ -140,13 +140,14 @@ export const updateNoteTrash = async(noteId,body)=>{
         return{
             code:HttpStatus.ACCEPTED,
             data:data,
-            message:"Note Updated SuccessFully !"
+            message:"Note Trash Updated SuccessFully !"
         }
 
     }
    
 
 }
+
 export const updateNoteArchive = async(noteId,body)=>{
     const data = await Note.findOne({where:{id:noteId,email:body.email}});
     if(!data){
@@ -167,11 +168,41 @@ export const updateNoteArchive = async(noteId,body)=>{
 
         data.isArchive=!data.isArchive
         data.save()
+        return{
+            code:HttpStatus.ACCEPTED,
+            data:data,
+            message:"Note Archive Updated SuccessFully !"
+        }
+
+    }
+   
+
+}
+export const updateNoteColour = async(noteId,body)=>{
+    const data = await Note.findOne({where:{id:noteId,email:body.email}});
+    if(!data){
+        return{
+            code:HttpStatus.INTERNAL_SERVER_ERROR,
+            data:null,
+            message:"Note is not present !"
+        }
+    }
+    else if(data.lengh==0){
+        return{
+            code:HttpStatus.BAD_REQUEST,
+            data:data,
+               message:"Your notes is not exit your are not right person !"
+        }
+    }
+    else{
+
+        data.colour=body.colour;
+        data.save()
 
         return{
             code:HttpStatus.ACCEPTED,
             data:data,
-            message:"Note Updated SuccessFully !"
+            message:"Note Color Updated SuccessFully !"
         }
 
     }
