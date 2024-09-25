@@ -33,6 +33,15 @@ module.exports=(sequelize,DataTypes)=>{
             email:DataTypes.STRING,
             title:DataTypes.STRING,
             description:DataTypes.STRING,
+            isTrash: {
+                type: DataTypes.BOOLEAN,
+                defaultValue: false,
+            },
+            isArchive: {
+                type: DataTypes.BOOLEAN,
+                defaultValue: false,
+            },
+
 
         },
         {

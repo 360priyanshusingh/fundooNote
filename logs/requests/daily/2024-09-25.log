@@ -1,0 +1,28 @@
+info: ::1 - - [25/Sep/2024:05:24:43 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 500 1621 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:05:28:50 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 400 56 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:05:28:56 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 500 1621 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:05:30:00 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 202 255 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:05:43:16 +0000] "POST /api/v1/notes/createNote HTTP/1.1" 202 255 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:05:54:08 +0000] "PUT /api/v1/notes/updateNote/3 HTTP/1.1" 500 56 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:05:58:53 +0000] "GET /api/v1/notes/updateNoteTrash/1 HTTP/1.1" 500 35 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:05:59:19 +0000] "GET /api/v1/notes/updateNoteTrash/1 HTTP/1.1" 500 97 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:05:59:50 +0000] "GET /api/v1/notes/updateNoteTrash/1 HTTP/1.1" 500 35 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:06:00:54 +0000] "GET /api/v1/notes/updateNoteTrash/1 HTTP/1.1" 202 254 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:06:01:07 +0000] "GET /api/v1/notes/updateNoteTrash/1 HTTP/1.1" 202 255 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:06:01:36 +0000] "PUT /api/v1/notes/updateNoteTrash/1 HTTP/1.1" 202 254 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:06:01:38 +0000] "PUT /api/v1/notes/updateNoteTrash/1 HTTP/1.1" 202 255 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:06:01:41 +0000] "PUT /api/v1/notes/updateNoteTrash/1 HTTP/1.1" 202 254 "-" "PostmanRuntime/7.42.0"
+

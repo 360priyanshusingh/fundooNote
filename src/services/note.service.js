@@ -116,6 +116,38 @@ export const updateNote = async(noteId,body)=>{
 
 }
 
+export const updateNoteTrash = async(noteId,body)=>{
+    const data = await Note.findOne({where:{id:noteId,email:body.email}});
+    if(!data){
+        return{
+            code:HttpStatus.INTERNAL_SERVER_ERROR,
+            data:null,
+            message:"Note is not present !"
+        }
+    }
+    else if(data.lengh==0){
+        return{
+            code:HttpStatus.BAD_REQUEST,
+            data:data,
+               message:"Your notes is not exit !"
+        }
+    }
+    else{
+
+        data.isTrash=!data.isTrash
+        data.save()
+
+        return{
+            code:HttpStatus.ACCEPTED,
+            data:data,
+            message:"Note Updated SuccessFully !"
+        }
+
+    }
+   
+
+}
+
 export const deleteNote = async(noteId)=>{
     const data = await Note.destroy({where:{id:noteId}});
     if(!data){

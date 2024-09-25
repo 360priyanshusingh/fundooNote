@@ -1,0 +1,116 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:21:32.875Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:21:32.993Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/createNote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-09-25T05:28:50.643Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:29:46.329Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:29:46.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:30:53.305Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:30:53.408Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:31:21.137Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:31:21.244Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:31:22.636Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:31:22.746Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:31:36.300Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:31:36.476Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:32:44.059Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:32:44.205Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:35:15.097Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:35:15.227Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:37:02.628Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:37:02.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:37:04.132Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:37:04.242Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:37:16.516Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:37:16.658Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:40:31.179Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:40:31.314Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:40:44.113Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:40:45.634Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:40:45.751Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:40:57.091Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:40:57.226Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:41:43.238Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:41:43.384Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:42:39.208Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:42:39.363Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:53:03.544Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:53:03.678Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes/updateNote/3 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-09-25T05:54:08.490Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:54:20.968Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:58:42.219Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:58:42.472Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:58:49.767Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T05:58:51.219Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T05:58:51.343Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Bad control character in string literal in JSON at position 32
+    at JSON.parse (<anonymous>)
+    at Object.jwsDecode [as decode] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jws\lib\verify-stream.js:71:20)
+    at module.exports (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\decode.js:5:21)
+    at Object.verify (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\jsonwebtoken\verify.js:69:20)
+    at _callee$ (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:25:30)
+    at tryCatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at userAuth (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\body-parser\lib\types\urlencoded.js:94:7) 
+    url - /api/v1/notes/updateNoteTrash/1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-09-25T05:59:19.525Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T06:00:51.373Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T06:00:51.614Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-25T06:01:23.125Z"}
+info: Connected to the database. {"timestamp":"2024-09-25T06:01:23.237Z"}
