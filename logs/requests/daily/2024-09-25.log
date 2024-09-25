@@ -54,3 +54,7 @@ info: ::1 - - [25/Sep/2024:07:20:00 +0000] "POST /api/v1/notes/createNote HTTP/1
 
 info: ::1 - - [25/Sep/2024:07:20:12 +0000] "PUT /api/v1/notes/updateNoteArchive/1 HTTP/1.1" 202 276 "-" "PostmanRuntime/7.42.0"
 
+info: ::1 - - [25/Sep/2024:07:20:53 +0000] "PUT /api/v1/notes/updateNoteColour/1 HTTP/1.1" 202 276 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Sep/2024:07:21:05 +0000] "PUT /api/v1/notes/updateNoteColour/1 HTTP/1.1" 202 277 "-" "PostmanRuntime/7.42.0"
+
