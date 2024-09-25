@@ -70,6 +70,7 @@ export const updateNote= async (req,res,next)=>{
     
     try {
         const data= await NoteService.updateNote(req.params.id,req.body);
+        
         res.status(data.code).json({
            code:data.code,
            data:data.data,
