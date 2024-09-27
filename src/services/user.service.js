@@ -3,6 +3,7 @@ import sequelize, { DataTypes } from '../config/database';
 const User = require('../models/user')(sequelize, DataTypes);
 import HttpStatus from 'http-status-codes';
 import jwt from 'jsonwebtoken';
+const sendEmail = require('../utils/user.util'); 
 
 import bcrypt  from 'bcrypt' ;
 
@@ -14,6 +15,7 @@ let otp='';
 
 export const newUser = async (body) => {
   const data = await User.findOne({where :{email:body.email} }) ;
+
   if(data){
     return {
       code:HttpStatus.BAD_REQUEST,
@@ -21,12 +23,36 @@ export const newUser = async (body) => {
       message:"User Already Present !"
     }
   }
- else{
 
+ else{
+  
   const hashedPassword= await bcrypt.hash(body.password,4);
   body.password=hashedPassword;
   const user = await User.create(body);
 
+ 
+
+  const emailOptions = {
+    to: body.email,  
+    subject: 'Welcome to Fundoo App!',
+    text: `Thank you for registering with Fundoo App. I am Priyanshu Sisodiya i am testing email sending api. if you recevied the mail than please reply` ,
+    html: `<b>Thank you for registering with Fundoo App. I am Priyanshu Sisodiya i am testing email sending api. if you recevied the mail than please reply </b>`,  // HTML version
+  };
+
+  const emailResult = await sendEmail(emailOptions);
+  // console.log("new Servise called ",emailResult,body)
+  if (emailResult.success) {
+    console.log('Welcome email sent to:', user.email);
+  } else {
+    console.error('Failed to send email:', emailResult.error);
+    return {
+      code:HttpStatus.BAD_REQUEST,
+      data:emailResult.error,
+      message:"Registration mail not send to you !"
+    }
+  }
+
+ 
   return {
     code:HttpStatus.ACCEPTED,
     data:user,
@@ -40,15 +66,14 @@ export const newUser = async (body) => {
 export const loginUser = async (body) => {
 
   const data = await User.findOne({ where: { email: body.email } });
-    if(data===null){
-      return {
-        code: HttpStatus.BAD_REQUEST, 
-        data: null,
-        message: 'User is not registered !',
-      };
+  if(data===null){
+    return {
+      code: HttpStatus.BAD_REQUEST, 
+      data: null,
+      message: 'User is not registered !',
+    };
 
-    }
-
+  }
    const passwordMatch = await bcrypt.compare(body.password, data.password); 
 
    if(!passwordMatch){
@@ -89,19 +114,40 @@ export const forgetFassword= async(body)=>{
     for(let i=0;i<5;i++){
       otp+=Math.floor(Math.random()*10)
     }
-    
-    return{
-      code:HttpStatus.ACCEPTED,
-      data:otp,
-      message:"Otp Generated !"
+
+    const emailOptions = {
+      to: body.email,  
+      subject: 'Welcome to Fundoo App!',
+      html: `<h3>Thank you for registering with Fundoo App. Your reset password process started . Please do Not share the otp your OTP : ${otp} </h3>`,  // HTML version
+    };
+  
+    const emailResult = await sendEmail(emailOptions);
+    // console.log("new Servise called ",emailResult,body)
+    if (emailResult.success) {
+      console.log('Welcome email sent to:', body.email);
+
+      return{
+        code:HttpStatus.ACCEPTED,
+        data:null,
+        message:"Otp Generated Please ckeck your mail !"
+      }
+    } else {
+      console.error('Failed to send email:', emailResult.error);
+      return {
+        code:HttpStatus.BAD_REQUEST,
+        data:emailResult.error,
+        message:"Registration mail not send to you !"
+      }
     }
-    
+
   }
 }
 
 export const resetPassword= async(email,body)=>{
   const data=await User.findOne({where:{email:email}});
  //  console.log(data);
+ console.log(body)
+ console.log("Heloo This line for OTP",otp)
   if(!data){
    return{
      code:HttpStatus.BAD_REQUEST,
@@ -109,9 +155,7 @@ export const resetPassword= async(email,body)=>{
      message:"User not registered !"
    }
  }
-  else if(data.otp!=body.otp){
- 
-
+  else if(otp!==body.otp){
    return{
      code:HttpStatus.BAD_REQUEST,
      data:null,

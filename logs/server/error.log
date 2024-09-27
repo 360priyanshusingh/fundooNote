@@ -4467,3 +4467,184 @@ error:
     method - DELETE 
     IP - ::1
    {"timestamp":"2024-09-25T09:43:08.564Z"}
+error: 
+    status - 500 
+    message - Error: Cannot apply rules to empty ruleset or the last rule added does not support rule properties
+    at new module.exports (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.rule (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@hapi\joi\lib\base.js:465:9)
+    at internals.Base.message (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@hapi\joi\lib\extend.js:145:29)
+    at newUserValidator (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\validators\/user.validator.js:13:6)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:06:51.889Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 8 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:12:09.985Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "12345678" fails to match the required pattern: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*]).+$/ 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:12:39.138Z"}
+error: 
+    status - 500 
+    message - ValidationError: "newPassword" length must be at least 8 characters long 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:25:19.122Z"}
+error: 
+    status - 500 
+    message - ValidationError: "newPassword" with value "12345678" fails to match the required pattern: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*]).+$/ 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:25:26.146Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:27:07.669Z"}
+error: 
+    status - 500 
+    message - ValidationError: "opt" is not allowed 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:27:30.418Z"}
+error: 
+    status - 500 
+    message - ValidationError: "opt" is not allowed 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:27:53.900Z"}
+error: 
+    status - 500 
+    message - ValidationError: "opt" is not allowed 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:29:06.480Z"}
+error: 
+    status - 500 
+    message - ValidationError: "otp" is required 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:40:05.359Z"}
+error: 
+    status - 500 
+    message - ValidationError: "otp" is required 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:41:11.666Z"}
+error: 
+    status - 500 
+    message - ValidationError: "opt" is not allowed 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:41:49.949Z"}
+error: 
+    status - 500 
+    message - ValidationError: "opt" is not allowed 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:42:42.558Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must be at least 8 characters long. 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:45:11.310Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:45:21.083Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:46:12.606Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:46:33.787Z"}
+error: 
+    status - 500 
+    message - ValidationError: "opt" is not allowed 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:46:46.395Z"}
+error: 
+    status - 500 
+    message - ValidationError: "opt" is not allowed 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:51:30.854Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-27T05:27:39.574Z"}

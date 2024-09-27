@@ -7,11 +7,14 @@ import jwt from 'jsonwebtoken';
 import bcrypt  from 'bcrypt' ;
 
 import dotenv from 'dotenv'
+import { client } from '../config/redisDb';
 dotenv.config()
 
 export const createNote = async(body)=>{
     const data = await Note.create(body);
     if(data){
+
+        await client.del('note_cache')
         return{
             code:HttpStatus.ACCEPTED,
             data:data,
@@ -30,13 +33,13 @@ export const createNote = async(body)=>{
 }
 
 export const getAllNotes = async(body)=>{
-
-    const data = await Note.findAll({where:{email:body.email}});
+    const data = await Note.findAll({where:{email:body.email,isTrash:false}});
+   
     if(!data){
         return{
             code:HttpStatus.BAD_REQUEST,
             data:null,
-            message:"Notes is not prasent !"
+            message:"Notes is not present !"
         }
     }
     else if(data.length==0){
@@ -47,6 +50,8 @@ export const getAllNotes = async(body)=>{
         }
     }
     else{
+   
+        await client.set('note_cache',JSON.stringify(data))
         return{
             code:HttpStatus.ACCEPTED,
             data:data,
@@ -57,12 +62,12 @@ export const getAllNotes = async(body)=>{
 }
 
 export const getNoteById = async(noteId,body)=>{
-    const data = await Note.findOne({where:{id:noteId,email:body.email}});
+    const data = await Note.findOne({where:{id:noteId,email:body.email,isTrash:false}});
     if(!data){
         return{
             code:HttpStatus.BAD_REQUEST,
             data:null,
-            message:"Notes is not prasent !"
+            message:"Notes is not exit!"
         }
     }
     else if(data.lengh==0){
@@ -73,6 +78,7 @@ export const getNoteById = async(noteId,body)=>{
         }
     }
     else{
+        await client.set('note_cache',JSON.stringify(data))
         return{
             code:HttpStatus.ACCEPTED,
             data:data,
@@ -104,7 +110,7 @@ export const updateNote = async(noteId,body)=>{
         data.title=body.title
         data.description=body.description
         data.save()
-
+        await client.del('note_cache')
         return{
             code:HttpStatus.ACCEPTED,
             data:data,
@@ -136,7 +142,7 @@ export const updateNoteTrash = async(noteId,body)=>{
 
         data.isTrash=!data.isTrash
         data.save()
-
+        await client.del('note_cache')
         return{
             code:HttpStatus.ACCEPTED,
             data:data,
@@ -168,6 +174,7 @@ export const updateNoteArchive = async(noteId,body)=>{
 
         data.isArchive=!data.isArchive
         data.save()
+        await client.del('note_cache')
         return{
             code:HttpStatus.ACCEPTED,
             data:data,
@@ -199,6 +206,7 @@ export const updateNoteColour = async(noteId,body)=>{
 
         data.colour=body.colour;
         data.save()
+        await client.del('note_cache')
 
         return{
             code:HttpStatus.ACCEPTED,
@@ -221,10 +229,10 @@ export const deleteNote = async(noteId,body)=>{
             message:"Note is not present !"
         }
     } 
-
     else if(!data.isTrash){
         data.isTrash=!data.isTrash
         data.save()
+        await client.del('note_cache')
         return{
             code:HttpStatus.ACCEPTED,
             data:data,
@@ -235,6 +243,7 @@ export const deleteNote = async(noteId,body)=>{
     else{
         const newdata = await Note.destroy({ where: { id: noteId } });
         if (newdata) {
+            await client.del('note_cache')
             return {
                 code: HttpStatus.OK,
                 data: newdata, 

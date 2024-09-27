@@ -1,6 +1,6 @@
 import express from 'express';
 import * as userController from '../controllers/user.controller';
-import { loginUserValidator, newUserValidator } from '../validators/user.validator';
+import { loginUserValidator, newUserValidator ,newPasswordValidator} from '../validators/user.validator';
 import { userAuth } from '../middlewares/auth.middleware';
 
 const router = express.Router();
@@ -13,7 +13,7 @@ router.post('/login',userController.loginUser);
 
 router.post('/forgetPassword',userController.forgetFassword);
 
-router.post('/resetPassword/:email',userController.resetPassword);
+router.post('/resetPassword/:email',newPasswordValidator,userController.resetPassword);
 
 
 

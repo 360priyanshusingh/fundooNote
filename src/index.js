@@ -14,6 +14,7 @@ import {
 import logger, { logStream } from './config/logger';
 
 import morgan from 'morgan';
+import redisDb from './config/redisDb';
 
 const app = express();
 const host = process.env.APP_HOST;
@@ -25,6 +26,7 @@ app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(morgan('combined', { stream: logStream }));
+redisDb()
 
 app.use(`/api/${api_version}`, routes());
 app.use(appErrorHandler);
