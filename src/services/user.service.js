@@ -8,6 +8,7 @@ const sendEmail = require('../utils/user.util');
 import bcrypt  from 'bcrypt' ;
 
 import dotenv from 'dotenv'
+import { connectRabbitMqQueue } from '../config/rabbitMq';
 dotenv.config()
 let otp='';
 
@@ -51,7 +52,14 @@ export const newUser = async (body) => {
       message:"Registration mail not send to you !"
     }
   }
-
+  
+  const rabbitMqMessage= await connectRabbitMqQueue(emailOptions)
+  if(rabbitMqMessage.success){
+  console.log('massage sent By the rabbitMq SuccesFully');
+  }
+  else{
+    console.error('Falied to massage sent By the rabbitMq ');
+  }
  
   return {
     code:HttpStatus.ACCEPTED,

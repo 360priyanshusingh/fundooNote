@@ -1,0 +1,251 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T05:04:28.026Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T05:04:28.152Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T07:43:09.847Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T07:43:09.991Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T07:43:40.726Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T07:43:40.905Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T07:43:55.744Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T07:43:55.885Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T07:45:19.603Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T07:45:19.753Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T08:00:12.248Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T08:00:12.393Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T08:00:38.702Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T08:00:38.889Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T08:01:06.507Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T08:01:06.703Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T08:06:21.087Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T08:06:21.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T08:08:05.437Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T08:08:05.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T08:46:01.754Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T08:46:01.883Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T08:50:10.539Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T08:50:10.663Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T08:50:36.839Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T08:50:36.964Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:06:27.994Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:06:28.149Z"}
+error: 
+    status - 500 
+    message - Error: Cannot apply rules to empty ruleset or the last rule added does not support rule properties
+    at new module.exports (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.rule (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@hapi\joi\lib\base.js:465:9)
+    at internals.Base.message (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\@hapi\joi\lib\extend.js:145:29)
+    at newUserValidator (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\src\validators\/user.validator.js:13:6)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\sisod\OneDrive\Desktop\workSpace_ckpd\fundooNote\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:06:51.889Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:11:20.400Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:11:20.545Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:12:02.240Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:12:03.840Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:12:03.959Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 8 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:12:09.985Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:12:34.281Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:12:34.421Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "12345678" fails to match the required pattern: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*]).+$/ 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:12:39.138Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:13:41.401Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:13:41.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:19:36.242Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:19:36.385Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:23:35.454Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:23:35.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:23:55.885Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:23:56.072Z"}
+error: 
+    status - 500 
+    message - ValidationError: "newPassword" length must be at least 8 characters long 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:25:19.122Z"}
+error: 
+    status - 500 
+    message - ValidationError: "newPassword" with value "12345678" fails to match the required pattern: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*]).+$/ 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:25:26.146Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:27:03.015Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:27:03.153Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:27:07.669Z"}
+error: 
+    status - 500 
+    message - ValidationError: "opt" is not allowed 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:27:30.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:27:48.115Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:27:48.237Z"}
+error: 
+    status - 500 
+    message - ValidationError: "opt" is not allowed 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:27:53.900Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:28:59.856Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:28:59.998Z"}
+error: 
+    status - 500 
+    message - ValidationError: "opt" is not allowed 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:29:06.480Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:39:52.643Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:39:52.806Z"}
+error: 
+    status - 500 
+    message - ValidationError: "otp" is required 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:40:05.359Z"}
+error: 
+    status - 500 
+    message - ValidationError: "otp" is required 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:41:11.666Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:41:40.964Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:41:41.116Z"}
+error: 
+    status - 500 
+    message - ValidationError: "opt" is not allowed 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:41:49.949Z"}
+error: 
+    status - 500 
+    message - ValidationError: "opt" is not allowed 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:42:42.558Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must be at least 8 characters long. 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:45:11.310Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:45:21.083Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:46:07.527Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:46:07.661Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:46:12.606Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:46:33.787Z"}
+error: 
+    status - 500 
+    message - ValidationError: "opt" is not allowed 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:46:46.395Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:51:23.102Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:51:23.222Z"}
+error: 
+    status - 500 
+    message - ValidationError: "opt" is not allowed 
+    url - /api/v1/users/resetPassword/mppscpriyanshu06@gmail.com 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-09-26T09:51:30.854Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:55:37.958Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:55:38.135Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:57:04.228Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:57:04.377Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T09:57:52.642Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T09:57:52.786Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T10:00:00.814Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T10:00:00.948Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T10:01:28.101Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T10:01:28.245Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T10:03:35.853Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T10:03:35.994Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T10:03:58.043Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T10:03:58.203Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T10:09:11.139Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T10:09:11.288Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T10:12:16.255Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T10:12:16.378Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-09-26T10:12:48.660Z"}
+info: Connected to the database. {"timestamp":"2024-09-26T10:12:48.777Z"}

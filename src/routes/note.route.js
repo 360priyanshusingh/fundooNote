@@ -1,7 +1,7 @@
 
 import * as noteController from '../controllers/note.controller';
 import { userAuth } from '../middlewares/auth.middleware';
-import { cacheDb } from '../middlewares/redis.middleware';
+import { cacheDb ,cacheNoteById} from '../middlewares/redis.middleware';
 
 import {newNoteValidator} from '../validators/note.validator'
 
@@ -17,7 +17,7 @@ router.post('/createNote',newNoteValidator,userAuth,noteController.createNote)
 
 router.get('/getAllNotes',userAuth,cacheDb,noteController.getAllNotes)
 
-router.get('/getNoteById/:id',userAuth,cacheDb,noteController.getNoteById)
+router.get('/getNoteById/:id',userAuth,cacheNoteById,noteController.getNoteById)
 
 router.put('/updateNote/:id',newNoteValidator,userAuth,noteController.updateNote)
 

@@ -78,7 +78,7 @@ export const getNoteById = async(noteId,body)=>{
         }
     }
     else{
-        await client.set('note_cache',JSON.stringify(data))
+     
         return{
             code:HttpStatus.ACCEPTED,
             data:data,
@@ -139,7 +139,6 @@ export const updateNoteTrash = async(noteId,body)=>{
         }
     }
     else{
-
         data.isTrash=!data.isTrash
         data.save()
         await client.del('note_cache')
